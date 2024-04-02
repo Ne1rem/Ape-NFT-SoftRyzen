@@ -1,0 +1,61 @@
+
+
+@font-face {
+    font-family: 'BiroScriptPlus';
+    src: url('./BiroScript/BiroScriptPlus.ttf')
+  }
+  
+  @font-face {
+    font-family: 'BiroScriptPlus-Sloppy';
+    src: url('./BiroScript/BiroScriptPlus-Sloppy.ttf')
+  }
+  
+  @font-face {
+    font-family: 'BiroScriptPlus-Bold';
+    src: url('./BiroScript/BiroScriptPlus-Bold.ttf')
+  }
+  
+  @font-face {
+    font-family: 'MessinaSansMono-Book';
+    src: url('./MessinaSans/MessinaSansMono-Book.ttf')
+  }
+  
+  @font-face {
+    font-family: 'MessinaSansMono-Bold';
+    src: url('./MessinaSans/MessinaSansMono-Bold.ttf')
+  }
+  
+  @font-face {
+    font-family: 'MessinaSansMono-Black';
+    src: url('./MessinaSans/MessinaSansMono-Black.ttf')
+  }
+  
+  @font-face {
+    font-family: 'RightGrotesk-CompactBlack';
+    src: url('./RightGrotesk/RightGrotesk-CompactBlack.otf')
+  }
+  
+  @font-face {
+    font-family: 'RightGrotesk-Medium';
+    src: url('./RightGrotesk/RightGrotesk-Medium.otf')
+  }
+  
+  @font-face {
+    font-family: 'RightGrotesk-NarrowLight';
+    src: url('./RightGrotesk/RightGrotesk-NarrowLight.otf')
+  }
+  
+  @font-face {
+    font-family: 'rightgrotesk-spatialblack';
+    src: url('./RightGrotesk/rightgrotesk-spatialblack.otf')
+  }
+  
+  @font-face {
+    font-family: 'RightGrotesk-TightMedium';
+    src: url('./RightGrotesk/RightGrotesk-TightMedium.otf')
+  }
+  
+  @font-face {
+    font-family: 'RightGrotesk-WideMedium';
+    src: url('./RightGrotesk/RightGrotesk-WideMedium.otf')
+  }
