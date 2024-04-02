@@ -1,13 +1,25 @@
 {
   "files": {
-    "main.css": "/Ape-NFT-SoftRyzen/static/css/main.7acaea2f.css",
-    "main.js": "/Ape-NFT-SoftRyzen/static/js/main.8fe309f9.js",
+    "main.css": "/Ape-NFT-SoftRyzen/static/css/main.7e13fb4b.css",
+    "main.js": "/Ape-NFT-SoftRyzen/static/js/main.bfc7253c.js",
+    "static/media/BiroScriptPlus-Sloppy.ttf": "/Ape-NFT-SoftRyzen/static/media/BiroScriptPlus-Sloppy.87e5355ce830b7f955b4.ttf",
+    "static/media/BiroScriptPlus.ttf": "/Ape-NFT-SoftRyzen/static/media/BiroScriptPlus.8f40d0e26da891712200.ttf",
+    "static/media/BiroScriptPlus-Bold.ttf": "/Ape-NFT-SoftRyzen/static/media/BiroScriptPlus-Bold.d59732f3d22e3d024577.ttf",
+    "static/media/RightGrotesk-CompactBlack.otf": "/Ape-NFT-SoftRyzen/static/media/RightGrotesk-CompactBlack.965367bf710f347153cc.otf",
+    "static/media/RightGrotesk-WideMedium.otf": "/Ape-NFT-SoftRyzen/static/media/RightGrotesk-WideMedium.0ced1094d9f22fe5376c.otf",
+    "static/media/RightGrotesk-Medium.otf": "/Ape-NFT-SoftRyzen/static/media/RightGrotesk-Medium.8623e3fbb1e0b6d0b84f.otf",
+    "static/media/RightGrotesk-TightMedium.otf": "/Ape-NFT-SoftRyzen/static/media/RightGrotesk-TightMedium.7296cbeeff462eca0e62.otf",
+    "static/media/RightGrotesk-NarrowLight.otf": "/Ape-NFT-SoftRyzen/static/media/RightGrotesk-NarrowLight.8663b99b159d779a4668.otf",
+    "static/media/rightgrotesk-spatialblack.otf": "/Ape-NFT-SoftRyzen/static/media/rightgrotesk-spatialblack.d8a41e566ca8a5787840.otf",
+    "static/media/MessinaSansMono-Book.ttf": "/Ape-NFT-SoftRyzen/static/media/MessinaSansMono-Book.c72629595812a8ff4ffe.ttf",
+    "static/media/MessinaSansMono-Bold.ttf": "/Ape-NFT-SoftRyzen/static/media/MessinaSansMono-Bold.1f75a6d03c35769edef5.ttf",
+    "static/media/MessinaSansMono-Black.ttf": "/Ape-NFT-SoftRyzen/static/media/MessinaSansMono-Black.415e3ceac622bc0166b2.ttf",
     "index.html": "/Ape-NFT-SoftRyzen/index.html",
-    "main.7acaea2f.css.map": "/Ape-NFT-SoftRyzen/static/css/main.7acaea2f.css.map",
-    "main.8fe309f9.js.map": "/Ape-NFT-SoftRyzen/static/js/main.8fe309f9.js.map"
+    "main.7e13fb4b.css.map": "/Ape-NFT-SoftRyzen/static/css/main.7e13fb4b.css.map",
+    "main.bfc7253c.js.map": "/Ape-NFT-SoftRyzen/static/js/main.bfc7253c.js.map"
   },
   "entrypoints": [
-    "static/css/main.7acaea2f.css",
-    "static/js/main.8fe309f9.js"
+    "static/css/main.7e13fb4b.css",
+    "static/js/main.bfc7253c.js"
   ]
 }
