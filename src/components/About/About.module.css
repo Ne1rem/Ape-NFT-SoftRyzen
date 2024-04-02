@@ -1,0 +1,48 @@
+.aStoryAbout {
+  text-transform: uppercase;
+  font-family: RightGrotesk-CompactBlack;
+  font-size: 40px;
+  font-weight: 900;
+  line-height: 40px;
+  text-align: left;
+  color: var(--white-color);
+  padding-bottom: 16px;
+}
+.span {
+  color: var(--main-color);
+}
+
+.whoGotAbout {
+  font-family: MessinaSansMono-Book;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19px;
+  text-align: right;
+}
+
+.divAboutX {
+  padding-top: 36px;
+  padding-bottom: 40px;
+  text-align: center;
+}
+
+.x {
+  width: 24px;
+  height: 24px;
+  margin: 0 auto;
+  padding-bottom: 16px;
+}
+.eachArtworkAbout {
+  font-family: MessinaSansMono-Book;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 14px;
+  text-align: center;
+}
+
+.AboutMonkey {
+  width: 216px;
+  height: 292px;
+}
+
+  

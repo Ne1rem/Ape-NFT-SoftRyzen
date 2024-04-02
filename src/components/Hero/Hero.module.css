@@ -1,0 +1,9 @@
+
+.meetBut{
+    padding: 10px 74px;
+    font-family: RightGrotesk-CompactBlack;
+font-size: 16px;
+font-weight: 900;
+line-height: 19px;
+color: var(--text-color);
+}

@@ -51,5 +51,8 @@ img {
 
 button {
   cursor: pointer;
+  background-color: var(--background-buttons-color);
+  border-radius: 8px;
+  border: 0px;
 }
 

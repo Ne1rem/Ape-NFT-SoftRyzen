@@ -1,0 +1,8 @@
+.div {
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+    margin: 0 auto;
+    align-items: center;
+    padding: 54px 72px 24px 72px;
+}

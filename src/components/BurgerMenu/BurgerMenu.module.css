@@ -1,0 +1,39 @@
+.div {
+    position: fixed;
+    top: 62px;
+}
+
+.nav {
+    position: fixed;
+    right: 16px;
+  }
+  
+  .ulNav {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+  }
+  
+  .liNav {
+      width: 48px;
+      height: 48px;
+  }
+  
+  .buttonNav {
+    padding: 17px 8.5px;
+    font-family: MessinaSansMono-Book;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 14px;
+  }
+  
+  .buttonNavSvg {
+  padding: 0;
+  }
+  
+  .svgNav {
+    padding: 16px;
+    width: 16px;
+    height: 16px;
+    fill: var(--text-color);
+  }

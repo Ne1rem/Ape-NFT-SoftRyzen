@@ -1,0 +1,64 @@
+.divHeader {
+  background-color: var(--main-color);
+  padding: 36px 64px 19px 64px;
+  border-radius: 12px;
+  position: relative;
+  width: 217px;
+}
+
+.svgHeader {
+  width: 48px;
+  height: 32px;
+  position: absolute;
+  top: 16px;
+  left: 8px;
+}
+
+.divHeaderText {
+  display: flex;
+  flex-direction: column;
+}
+
+.didYouSeeIt {
+  font-family: BiroScriptPlus-Bold;
+  font-size: 16px;
+  font-weight: 400;
+  text-align: center;
+  line-height: 27px;
+  color: var(--text-color);
+}
+
+.yachtApes {
+  font-family: RightGrotesk-CompactBlack;
+  font-size: 44px;
+  font-weight: 900;
+  line-height: 44px;
+  text-align: center;
+  color: var(--text-color);
+  letter-spacing: 0.01em;
+}
+
+.apesAreEverywhere {
+  padding-top: 8px;
+  font-family: BiroScriptPlus-Bold;
+  font-size: 16px;
+  font-weight: 400;
+  text-align: center;
+  line-height: 27px;
+  color: var(--text-color);
+}
+
+.MonkeyHeader {
+  width: 216px;
+  height: 284px;
+}
+.yacht {
+  padding-top: 12px;
+  font-family: MessinaSansMono-Bold;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 14px;
+  color: var(--text-color);
+  text-align: center;
+  text-transform: uppercase;
+}
