@@ -1,8 +1,8 @@
 {
-  "name": "Ape-NFT-SoftRyzen",
+  "name": "ape-nft-softryzen",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://Ne1rem.github.io/Ape-NFT-SoftRyzen/",
+  "homepage": "https://Ne1rem.github.io/ape-nft-softryzen/",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.3",
     "@testing-library/react": "^12.1.4",
