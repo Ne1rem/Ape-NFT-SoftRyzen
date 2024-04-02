@@ -4,7 +4,7 @@ import image from '../../Image/Images/About.png'
 
 const About = () => {
   return (
-    <div>
+    <div className={css.divAbout}>
       <p className={css.aStoryAbout}>a Story that started with <span className={css.span}>one simple ape</span></p>
       <p className={css.whoGotAbout}>WHO GOT FED UP WITH BORING AND HYPOCRITIC COMMONPLACE THIS IS HOW THE IDEA OF ESCAPING AND DYNAMIC JOURNEY ON THE YACHT</p>
       <div className={css.divAboutX}>
