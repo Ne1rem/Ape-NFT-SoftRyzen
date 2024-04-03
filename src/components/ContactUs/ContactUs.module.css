@@ -1,0 +1,89 @@
+.titleContactUs {
+  font-family: RightGrotesk-CompactBlack;
+  font-size: 44px;
+  font-weight: 900;
+  line-height: 40px;
+  color: var(--white-color);
+  text-align: center;
+  text-transform: uppercase;
+  padding-bottom: 24px;
+}
+
+.svgX {
+  width: 36px;
+  height: 36px;
+  margin: 0 auto;
+  padding-bottom: 16px;
+}
+
+.textContactsUs {
+  font-family: MessinaSansMono-Book;
+  margin: 0 auto;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19px;
+  text-align: center;
+  width: 216px;
+  padding-bottom: 16px;
+}
+
+.svgDiscord {
+  width: 24px;
+  height: 24px;
+
+  fill: rgba(90, 101, 242, 1);
+  background-color: var(--text-color);
+  padding: 12px;
+  border-radius: 8px 0px 0px 8px;
+}
+
+.svgFox {
+  width: 24px;
+  height: 24px;
+
+  background-color: var(--text-color);
+  padding: 12px;
+  border-radius: 8px 0px 0px 8px;
+}
+
+.inputPart {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.inputContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 16px;
+}
+
+.inputConctactUs {
+  padding: 16px 24px;
+  border-radius: 0px 12px 12px 0px;
+  border: 1px solid var(--text-color);
+  font-family: MessinaSansMono-Book;
+  font-size: 12px;
+  font-weight: 400;
+  color: rgba(255, 255, 255, 0.24);
+  background-color: transparent;
+  line-height: 14px;
+  text-align: left;
+  width: 118px;
+}
+
+.buttonSubmit {
+  display: flex;
+  margin: 0 auto;
+  padding: 11px 0;
+  font-family: RightGrotesk-CompactBlack;
+  font-size: 16px;
+  justify-content: center;
+  font-weight: 900;
+  line-height: 19px;
+  color: var(--white-color);
+  background-color: var(--main-color);
+  width: 100%;
+}

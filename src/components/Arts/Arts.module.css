@@ -35,3 +35,11 @@
   font-weight: 400;
   line-height: 24px;
 }
+
+.divSlaider{
+  height: 256px;
+}
+.imageCollection {
+  width: 216px;
+  height: 256px;
+}
