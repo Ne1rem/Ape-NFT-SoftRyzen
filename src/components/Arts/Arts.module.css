@@ -1,0 +1,37 @@
+.COLLECTION {
+  font-family: RightGrotesk-CompactBlack;
+  font-size: 44px;
+  font-weight: 900;
+  line-height: 40px;
+  text-transform: uppercase;
+  text-align: center;
+  padding-bottom: 24px;
+}
+
+.sliderContainer {
+  position: relative;
+  display: block;
+  box-sizing: border-box;
+  -webkit-user-select: none;
+  user-select: none;
+  -webkit-touch-callout: none;
+  -khtml-user-select: none;
+  touch-action: pan-y;
+  width: 216px;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.divSlaider {
+  position: relative;
+  height: 242px;
+  background-color: var(--text-color);
+  border-radius: 12px;
+}
+
+.buttonNextPrev {
+  color: var(--white-color);
+  font-family: BiroScriptPlus-Bold;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 24px;
+}
