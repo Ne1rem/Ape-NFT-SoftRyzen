@@ -1,12 +1,32 @@
 {
   "files": {
-    "main.css": "/ape-nft-softryzen/static/css/main.b4f9b6db.css",
-    "main.js": "/ape-nft-softryzen/static/js/main.bdf93eed.js",
+    "main.css": "/ape-nft-softryzen/static/css/main.9615d9a8.css",
+    "main.js": "/ape-nft-softryzen/static/js/main.0f1249bf.js",
+    "static/js/483.647053fc.chunk.js": "/ape-nft-softryzen/static/js/483.647053fc.chunk.js",
+    "static/js/521.ad9242c5.chunk.js": "/ape-nft-softryzen/static/js/521.ad9242c5.chunk.js",
+    "static/js/529.2612618e.chunk.js": "/ape-nft-softryzen/static/js/529.2612618e.chunk.js",
+    "static/js/902.be001b81.chunk.js": "/ape-nft-softryzen/static/js/902.be001b81.chunk.js",
+    "static/js/314.b5578f76.chunk.js": "/ape-nft-softryzen/static/js/314.b5578f76.chunk.js",
+    "static/js/923.482515e5.chunk.js": "/ape-nft-softryzen/static/js/923.482515e5.chunk.js",
+    "static/js/401.a35a9b8b.chunk.js": "/ape-nft-softryzen/static/js/401.a35a9b8b.chunk.js",
+    "static/js/653.39cce5f2.chunk.js": "/ape-nft-softryzen/static/js/653.39cce5f2.chunk.js",
+    "static/js/70.ac2354a0.chunk.js": "/ape-nft-softryzen/static/js/70.ac2354a0.chunk.js",
+    "static/js/362.d7ec1731.chunk.js": "/ape-nft-softryzen/static/js/362.d7ec1731.chunk.js",
     "static/media/BiroScriptPlus-Sloppy.ttf": "/ape-nft-softryzen/static/media/BiroScriptPlus-Sloppy.87e5355ce830b7f955b4.ttf",
     "static/media/BiroScriptPlus.ttf": "/ape-nft-softryzen/static/media/BiroScriptPlus.8f40d0e26da891712200.ttf",
     "static/media/BiroScriptPlus-Bold.ttf": "/ape-nft-softryzen/static/media/BiroScriptPlus-Bold.d59732f3d22e3d024577.ttf",
     "static/media/About.png": "/ape-nft-softryzen/static/media/About.641f3dcd5241e5f447c3.png",
     "static/media/Header.png": "/ape-nft-softryzen/static/media/Header.f9eaa4e15e865dd2f0e8.png",
+    "static/media/2.png": "/ape-nft-softryzen/static/media/2.b785323d76f529c217ac.png",
+    "static/media/8.png": "/ape-nft-softryzen/static/media/8.138faca337e2e9729b63.png",
+    "static/media/9.png": "/ape-nft-softryzen/static/media/9.0989ff08517886e56a40.png",
+    "static/media/4.png": "/ape-nft-softryzen/static/media/4.ef29d0096a2f5d2433ee.png",
+    "static/media/3.png": "/ape-nft-softryzen/static/media/3.d86be6f45380715e8b3f.png",
+    "static/media/1.png": "/ape-nft-softryzen/static/media/1.5602c83d394483786677.png",
+    "static/media/5.png": "/ape-nft-softryzen/static/media/5.67d917c0c1f2b0ceef0f.png",
+    "static/media/6.png": "/ape-nft-softryzen/static/media/6.bb4edaa595926a7addcc.png",
+    "static/media/7.png": "/ape-nft-softryzen/static/media/7.27067e8426443578e29a.png",
+    "static/media/10.png": "/ape-nft-softryzen/static/media/10.9f910549bd1af7c8e5b5.png",
     "static/media/RightGrotesk-CompactBlack.otf": "/ape-nft-softryzen/static/media/RightGrotesk-CompactBlack.965367bf710f347153cc.otf",
     "static/media/RightGrotesk-WideMedium.otf": "/ape-nft-softryzen/static/media/RightGrotesk-WideMedium.0ced1094d9f22fe5376c.otf",
     "static/media/RightGrotesk-Medium.otf": "/ape-nft-softryzen/static/media/RightGrotesk-Medium.8623e3fbb1e0b6d0b84f.otf",
@@ -22,11 +42,11 @@
     "static/media/slick.ttf": "/ape-nft-softryzen/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "/ape-nft-softryzen/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/ape-nft-softryzen/index.html",
-    "main.b4f9b6db.css.map": "/ape-nft-softryzen/static/css/main.b4f9b6db.css.map",
-    "main.bdf93eed.js.map": "/ape-nft-softryzen/static/js/main.bdf93eed.js.map"
+    "main.9615d9a8.css.map": "/ape-nft-softryzen/static/css/main.9615d9a8.css.map",
+    "main.0f1249bf.js.map": "/ape-nft-softryzen/static/js/main.0f1249bf.js.map"
   },
   "entrypoints": [
-    "static/css/main.b4f9b6db.css",
-    "static/js/main.bdf93eed.js"
+    "static/css/main.9615d9a8.css",
+    "static/js/main.0f1249bf.js"
   ]
 }
