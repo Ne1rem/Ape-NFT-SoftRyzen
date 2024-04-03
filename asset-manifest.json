@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/ape-nft-softryzen/static/css/main.9615d9a8.css",
-    "main.js": "/ape-nft-softryzen/static/js/main.0f1249bf.js",
+    "main.css": "/ape-nft-softryzen/static/css/main.118ee232.css",
+    "main.js": "/ape-nft-softryzen/static/js/main.2d86b611.js",
     "static/js/483.647053fc.chunk.js": "/ape-nft-softryzen/static/js/483.647053fc.chunk.js",
     "static/js/521.ad9242c5.chunk.js": "/ape-nft-softryzen/static/js/521.ad9242c5.chunk.js",
     "static/js/529.2612618e.chunk.js": "/ape-nft-softryzen/static/js/529.2612618e.chunk.js",
@@ -36,17 +36,17 @@
     "static/media/MessinaSansMono-Book.ttf": "/ape-nft-softryzen/static/media/MessinaSansMono-Book.c72629595812a8ff4ffe.ttf",
     "static/media/MessinaSansMono-Bold.ttf": "/ape-nft-softryzen/static/media/MessinaSansMono-Bold.1f75a6d03c35769edef5.ttf",
     "static/media/MessinaSansMono-Black.ttf": "/ape-nft-softryzen/static/media/MessinaSansMono-Black.415e3ceac622bc0166b2.ttf",
-    "static/media/symbol-defs.svg": "/ape-nft-softryzen/static/media/symbol-defs.0dd9585e94761ef91e2f0947a2e7a221.svg",
+    "static/media/symbol-defs.svg": "/ape-nft-softryzen/static/media/symbol-defs.09a09fa104a64aa90cfddca9282af83f.svg",
     "static/media/slick.svg": "/ape-nft-softryzen/static/media/slick.2630a3e3eab21c607e21.svg",
     "static/media/slick.eot": "/ape-nft-softryzen/static/media/slick.a4e97f5a2a64f0ab1323.eot",
     "static/media/slick.ttf": "/ape-nft-softryzen/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "/ape-nft-softryzen/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/ape-nft-softryzen/index.html",
-    "main.9615d9a8.css.map": "/ape-nft-softryzen/static/css/main.9615d9a8.css.map",
-    "main.0f1249bf.js.map": "/ape-nft-softryzen/static/js/main.0f1249bf.js.map"
+    "main.118ee232.css.map": "/ape-nft-softryzen/static/css/main.118ee232.css.map",
+    "main.2d86b611.js.map": "/ape-nft-softryzen/static/js/main.2d86b611.js.map"
   },
   "entrypoints": [
-    "static/css/main.9615d9a8.css",
-    "static/js/main.0f1249bf.js"
+    "static/css/main.118ee232.css",
+    "static/js/main.2d86b611.js"
   ]
 }
