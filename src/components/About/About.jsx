@@ -1,20 +1,20 @@
 import css from './About.module.css';
 import imageX from '../../Image/Images/x.png';
 import image from '../../Image/Images/About.png';
-import Slider from 'react-slick';
+// import Slider from 'react-slick';
 
 const About = () => {
-  const settings = {
-    dots: false,
-    infinite: true,
-    slidesToShow: 3,
-    arrows: false,
-    slidesToScroll: 1,
-    autoplay: true,
-    speed: 2000,
-    autoplaySpeed: 0,
-    cssEase: 'linear',
-  };
+  // const settings = {
+  //   dots: false,
+  //   infinite: true,
+  //   slidesToShow: 3,
+  //   arrows: false,
+  //   slidesToScroll: 1,
+  //   autoplay: true,
+  //   speed: 2000,
+  //   autoplaySpeed: 0,
+  //   cssEase: 'linear',
+  // };
 
   return (
     <div className={css.divAbout}>
@@ -34,7 +34,7 @@ const About = () => {
         </p>
       </div>
       <img src={image} className={css.AboutMonkey} alt="MonkeyAbout" />
-      <div className={css.sliderContainer}>
+      {/* <div className={css.sliderContainer}>
         <Slider {...settings}>
           <div className={css.divSlider}>
             <div className={css.divSliderFlex}>
@@ -55,7 +55,7 @@ const About = () => {
             </div>
           </div>
         </Slider>
-      </div>
+      </div> */}
     </div>
   );
 };

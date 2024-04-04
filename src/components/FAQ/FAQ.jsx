@@ -4,7 +4,6 @@ const FAQ = () => {
   return (
     <div>
       <h2 className={css.titleFAQ}>FAQ</h2>
-
       <div className={css.divFAQ}>
         <FAQCard
           number="1"
