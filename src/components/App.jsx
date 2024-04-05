@@ -12,13 +12,13 @@ const App = () => {
   return (
     <div className={css.div}>
       <Header />
-      <BurgerMenu/>
       <About />
       <MindMap />
       <FAQ />
       <Arts />
       <ContactUs />
       <Footer />
+      <BurgerMenu/>
     </div>
   );
 };

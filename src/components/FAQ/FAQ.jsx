@@ -15,7 +15,7 @@ const FAQ = () => {
     };
 
     return (
-        <div>
+        <div id="FAQ">
             <h2 className={css.titleFAQ}>FAQ</h2>
             <div className={css.divFAQ}>
                 <FAQCard

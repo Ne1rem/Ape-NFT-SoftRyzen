@@ -33,7 +33,7 @@ const ContactUs = () => {
   };
 
   return (
-    <div>
+    <div id="Mint">
       <h2 className={css.titleContactUs}>Are you in?</h2>
       <img className={css.svgX} src={image} alt="X" />
       <p className={css.textContactsUs}>

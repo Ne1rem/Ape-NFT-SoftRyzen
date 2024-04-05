@@ -146,3 +146,73 @@
     width: 190px;
   }
 }
+
+@media screen and (min-width: 1280px) {
+  .divHeader {
+    padding: 0px 210px 0px 210px;
+    width: 60%;
+    height: 667px;
+  }
+  .svgHeader {
+    top: 39px;
+    left: 96px;
+  }
+
+  .divHeaderText {
+    padding-top: 197px;
+    padding-bottom: 81px;
+    display: flex;
+    flex-direction: column;
+  }
+  .didYouSeeIt {
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 40px;
+  }
+  .yachtApes {
+    font-size: 164px;
+    font-weight: 900;
+    line-height: 164px;
+    letter-spacing: 0.01em;
+    text-align: left;
+    
+  }
+  .apesAreEverywhere {
+    position: relative;
+    width: 1019px;
+    padding-top: 8px;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 33px;
+    text-align: left;
+  }
+  .MonkeyHeader {
+    width: 283px;
+    height: 386px;
+    position: absolute;
+    top: 35px;
+    padding-left: 134px;
+    z-index: 4;
+  }
+  .yacht {
+    width: 190px;
+    padding-top: 24px;
+    padding-bottom: 16px;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 14px;
+    text-align:justify;
+    text-indent: 6em;
+  }
+  .tabletTextPart {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .tabletButtonParts {
+    display: flex;
+    flex-direction: column;
+    width: 190px;
+  }
+}

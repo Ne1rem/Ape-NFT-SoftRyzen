@@ -37,7 +37,7 @@ const MindMap = () => {
   }, []);
 
   return (
-    <div>
+    <div id="M-Map">
       <p className={css.MingMapP}>Mind map</p>
       {windowWidth >= 768 ? (
         <div className={css.cardGrid}>

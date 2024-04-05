@@ -20,7 +20,7 @@ const About = () => {
   }, []);
 
   return (
-    <div className={css.divAbout}>
+    <div className={css.divAbout} id="About">
       <div className={css.divAboutAStoryTablet}>
         <p className={css.aStoryAbout}>
           a Story that started with&nbsp;

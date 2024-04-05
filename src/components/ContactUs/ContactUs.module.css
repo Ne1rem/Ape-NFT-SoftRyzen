@@ -99,7 +99,9 @@
   background-color: var(--main-color);
   width: 100%;
 }
-
+.buttonSubmit:hover {
+  color: var(--text-color);
+}
 @media screen and (min-width: 768px) {
   .titleContactUs {
     font-size: 80px;

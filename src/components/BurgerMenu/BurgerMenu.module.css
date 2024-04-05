@@ -1,52 +1,133 @@
 .div {
-    position: fixed;
-    top: 62px;
+  position: fixed;
+  top: 62px;
 }
 
 .nav {
-    position: fixed;
-    right: 16px;
-  }
-  
-  .ulNav {
-    display: flex;
-    flex-direction: column;
-    gap: 8px;
-  }
-  
-  .liNav {
-      width: 48px;
-      height: 48px;
-  }
-  .buttonNav:hover {
-    color: var(--white-color);
-  }
+  position: fixed;
+  right: 16px;
+}
 
-  .buttonNav {
-    padding: 17px 8.5px;
-    font-family: MessinaSansMono-Book;
-    font-size: 12px;
-    font-weight: 600;
-    line-height: 14px;
-  }
-  
-  .buttonNavSvg {
+.ulNav {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.liNav {
+  width: 48px;
+  height: 48px;
+}
+
+.buttonNavLess:hover {
+  color: var(--white-color);
+}
+
+.buttonNavLess {
+  padding: 17px 8.5px;
+  font-family: MessinaSansMono-Book;
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 14px;
+  background: rgba(30, 30, 30, 0.1);
+  border-radius: 12px;
+  width: 48px;
+  height: 48px;
+}
+
+.buttonNavMore {
+  padding: 17px 8.5px;
+  font-family: MessinaSansMono-Book;
+  font-size: 12px;
+  font-weight: 600;
+  width: 48px;
+  height: 48px;
+  color: var(--white-color);
+  border-radius: 12px;
+  background-color: rgba(255, 255, 255, 0.1);
+  line-height: 14px;
+}
+
+.buttonNavMore:hover {
+  color: var(--main-color);
+}
+
+.buttonNavSvgMore {
+  height: 48px;
   padding: 0;
-  }
-  .svgNav:hover {
-    fill: var(--white-color);
-  }
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 12px;
+}
 
-  .svgNav {
-    padding: 16px;
-    width: 16px;
-    height: 16px;
-    fill: var(--text-color);
-  }
+.buttonNavSvgLess {
+  padding: 0;
+  height: 48px;
+  background: rgba(30, 30, 30, 0.1);
+  border-radius: 12px;
+}
 
-  @media screen and (min-width: 768px) {
-    .div {
-      top: 66px;
+.menuTextLess {
+  position: relative;
+}
+
+.menuTextLess::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  background-color: var(--white-color);
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.buttonNavLess:hover .menuTextLess::after {
+  opacity: 1;
+}
+
+.menuTextMore {
+  position: relative;
+}
+
+.menuTextMore::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  background-color: var(--main-color);
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.buttonNavMore:hover .menuTextMore::after {
+  opacity: 1;
+}
+.svgNavMore {
+  padding: 16px;
+  width: 16px;
+  height: 16px;
+  fill: var(--white-color);
+}
+.svgNavMore:hover {
+  fill: var(--main-color);
+}
+
+.svgNavLess {
+  padding: 16px;
+  width: 16px;
+  height: 16px;
+  fill: var(--text-color);
+}
+.svgNavLess:hover {
+  fill: var(--white-color);
+}
+
+@media screen and (min-width: 768px) {
+  .div {
+    top: 66px;
   }
   .nav {
     position: fixed;
@@ -58,5 +139,4 @@
     height: 24px;
     fill: var(--text-color);
   }
-  }
-  
+}

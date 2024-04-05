@@ -49,7 +49,7 @@ const Arts = () => {
   };
 
   return (
-    <div className={css.artPart}>
+    <div className={css.artPart} id="Arts">
       <p className={css.COLLECTION}>COLLECTION</p>
       <div className={css.sliderContainer}>
         <Slider ref={sliderRef} {...settings}>

@@ -8,11 +8,22 @@
     font-family: RightGrotesk-CompactBlack;
     font-size: 16px;
     font-weight: 900;
+    
     line-height: 19px;
-    color: var(--text-color);
     background-color: rgba(30, 30, 30, 0.1);
 }
 
 .meetBut:hover {
     color: var(--white-color);
+}
+
+.meetBut{
+    color: var(--text-color);
+}
+
+@media screen and (min-width: 768px) {
+
+    .meetBut {
+        padding: 10px 61px;
+    }
 }
