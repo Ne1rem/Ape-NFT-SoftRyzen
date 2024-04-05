@@ -67,10 +67,10 @@
 .inputContainer {
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: flex-start;
   padding-bottom: 16px;
-  align-items: start;
 }
+
 
 .inputConctactUs {
   padding: 16px 24px;
