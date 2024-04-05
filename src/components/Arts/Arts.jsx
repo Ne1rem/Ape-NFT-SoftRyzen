@@ -5,8 +5,10 @@ import Slider from 'react-slick';
 const Arts = () => {
   const [images, setImages] = useState([]);
   const sliderRef = useRef(null);
+  const [windowWidth, setWindowWidth] = useState(window.innerWidth);
 
   useEffect(() => {
+    
     const importImages = async () => {
       const importedImages = [];
       for (let i = 1; i <= 10; i++) {
@@ -17,6 +19,16 @@ const Arts = () => {
     };
 
     importImages();
+
+    const handleResize = () => {
+      setWindowWidth(window.innerWidth);
+    };
+
+    window.addEventListener('resize', handleResize);
+
+    return () => {
+      window.removeEventListener('resize', handleResize);
+    };
   }, []);
 
   const next = () => {
@@ -32,7 +44,7 @@ const Arts = () => {
     infinite: false,
     arrows: false,
     speed: 500,
-    slidesToShow: 1,
+    slidesToShow: windowWidth > 767 ? 2 : 1,
     slidesToScroll: 1,
   };
 

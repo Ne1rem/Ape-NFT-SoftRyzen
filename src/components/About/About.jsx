@@ -1,31 +1,40 @@
+import { useState, useEffect } from 'react';
 import css from './About.module.css';
 import imageX from '../../Image/Images/x.png';
 import image from '../../Image/Images/About.png';
 // import Slider from 'react-slick';
 
 const About = () => {
-  // const settings = {
-  //   dots: false,
-  //   infinite: true,
-  //   slidesToShow: 3,
-  //   arrows: false,
-  //   slidesToScroll: 1,
-  //   autoplay: true,
-  //   speed: 2000,
-  //   autoplaySpeed: 0,
-  //   cssEase: 'linear',
-  // };
+  const [windowWidth, setWindowWidth] = useState(window.innerWidth);
+
+  useEffect(() => {
+    const handleResize = () => {
+      setWindowWidth(window.innerWidth);
+    };
+
+    window.addEventListener('resize', handleResize);
+
+    return () => {
+      window.removeEventListener('resize', handleResize);
+    };
+  }, []);
 
   return (
     <div className={css.divAbout}>
-      <p className={css.aStoryAbout}>
-        a Story that started with{' '}
-        <span className={css.span}>one simple ape</span>
-      </p>
-      <p className={css.whoGotAbout}>
-        WHO GOT FED UP WITH BORING AND HYPOCRITIC COMMONPLACE THIS IS HOW THE
-        IDEA OF ESCAPING AND DYNAMIC JOURNEY ON THE YACHT
-      </p>
+      <div className={css.divAboutAStoryTablet}>
+        <p className={css.aStoryAbout}>
+          a Story that started with&nbsp;
+          <span className={css.span}>
+            one simple {windowWidth <= 767 ? <br /> : null} ape
+          </span>
+        </p>
+
+        <p className={css.whoGotAbout}>
+          WHO GOT FED UP WITH BORING AND HYPOCRITIC COMMONPLACE THIS IS HOW THE
+          IDEA OF ESCAPING AND DYNAMIC JOURNEY ON THE{' '}
+          {windowWidth <= 767 ? <br /> : null}YACHT
+        </p>
+      </div>
       <div className={css.divAboutX}>
         <img src={imageX} className={css.x} alt="x" />
         <p className={css.eachArtworkAbout}>

@@ -1,15 +1,28 @@
 .divFAQ {
-    display: flex;
-    flex-direction: column;
-    gap: 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
 }
 
 .titleFAQ {
-    font-family: RightGrotesk-CompactBlack;
-font-size: 44px;
-font-weight: 900;
-line-height: 40px;
-color: var(--white-color);
-text-align: center;
-padding-bottom: 24px;
+  font-family: RightGrotesk-CompactBlack;
+  font-size: 44px;
+  font-weight: 900;
+  line-height: 40px;
+  color: var(--white-color);
+  text-align: center;
+  padding-bottom: 24px;
+}
+
+@media screen and (min-width: 768px) {
+  .divFAQ {
+    gap: 24px;
+  }
+
+  .titleFAQ {
+    font-size: 80px;
+    font-weight: 900;
+    line-height: 80px;
+    padding-bottom: 48px;
+  }
 }

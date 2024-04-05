@@ -37,3 +37,20 @@
     height: 16px;
     fill: var(--text-color);
   }
+
+  @media screen and (min-width: 768px) {
+    .div {
+      top: 66px;
+  }
+  .nav {
+    position: fixed;
+    right: 28px;
+  }
+  .svgNav {
+    padding: 12px;
+    width: 24px;
+    height: 24px;
+    fill: var(--text-color);
+  }
+  }
+  

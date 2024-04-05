@@ -1,30 +1,28 @@
 import { useState } from 'react';
 import css from '../FAQCard/FAQCard.module.css';
 
-const FAQCard = ({ number, question, answer }) => {
-  const [expanded, setExpanded] = useState(false);
-  const [textColor, setTextColor] = useState('var(--white-color)');
-  const [numberColor, setNumbreColor] = useState('var(--main-color)');
+const FAQCard = ({ image, number, question, answer }) => {
+  const [cardOpen, setCardOpen] = useState(false);
 
   const toggleExpand = () => {
-    setExpanded(!expanded);
-    setTextColor(expanded ? 'var(--white-color)' : 'var(--main-color)');
-    setNumbreColor(expanded ? 'var(--main-color)' : 'var(--white-color)');
+    setCardOpen(!cardOpen);
   };
 
   return (
-    <div onClick={toggleExpand} className={css.divCardFAQ}>
-      <p className={css.numberOfFAQ} style={{ color: numberColor }}>
+    <div onClick={toggleExpand} className={css.divCardFAQ} style={{ backgroundColor: cardOpen ? 'var(--text-color)' : 'transparent' }}>
+      {cardOpen && <img className={css.image} src={image} alt="FAQ Monkeys" />}
+      <p className={css.numberOfFAQ} style={{ color: cardOpen ? 'var(--white-color)' : 'var(--main-color)' }}>
         [ {number} ]
       </p>
       <div className={css.textContainer}>
-        <p className={css.textQuastion} style={{ color: textColor }}>
+        <p className={css.textQuastion} style={{ color: cardOpen ? 'var(--main-color)' : 'var(--white-color)' }}>
           {question}
         </p>
-        {expanded && <p className={css.textAnswer}>{answer}</p>}
+        {cardOpen && <p className={css.textAnswer}>{answer}</p>}
       </div>
     </div>
   );
 };
 
 export default FAQCard;
+  
