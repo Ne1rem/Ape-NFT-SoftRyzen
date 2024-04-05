@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkape_nft_softryzen=self.webpackChunkape_nft_softryzen||[]).push([[529],{9529:function(e,t,n){e.exports=n.p+"static/media/2.b785323d76f529c217ac.png"}}]);

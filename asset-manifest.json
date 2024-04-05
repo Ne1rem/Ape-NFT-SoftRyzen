@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/ape-nft-softryzen/static/css/main.771a8e6b.css",
-    "main.js": "/ape-nft-softryzen/static/js/main.2b0ff4f9.js",
-    "static/js/483.647053fc.chunk.js": "/ape-nft-softryzen/static/js/483.647053fc.chunk.js",
-    "static/js/521.ad9242c5.chunk.js": "/ape-nft-softryzen/static/js/521.ad9242c5.chunk.js",
-    "static/js/529.2612618e.chunk.js": "/ape-nft-softryzen/static/js/529.2612618e.chunk.js",
-    "static/js/902.be001b81.chunk.js": "/ape-nft-softryzen/static/js/902.be001b81.chunk.js",
-    "static/js/314.b5578f76.chunk.js": "/ape-nft-softryzen/static/js/314.b5578f76.chunk.js",
-    "static/js/923.482515e5.chunk.js": "/ape-nft-softryzen/static/js/923.482515e5.chunk.js",
-    "static/js/401.a35a9b8b.chunk.js": "/ape-nft-softryzen/static/js/401.a35a9b8b.chunk.js",
-    "static/js/653.39cce5f2.chunk.js": "/ape-nft-softryzen/static/js/653.39cce5f2.chunk.js",
-    "static/js/70.ac2354a0.chunk.js": "/ape-nft-softryzen/static/js/70.ac2354a0.chunk.js",
-    "static/js/362.d7ec1731.chunk.js": "/ape-nft-softryzen/static/js/362.d7ec1731.chunk.js",
+    "main.css": "/ape-nft-softryzen/static/css/main.962e78b7.css",
+    "main.js": "/ape-nft-softryzen/static/js/main.8e206a48.js",
+    "static/js/483.533b335c.chunk.js": "/ape-nft-softryzen/static/js/483.533b335c.chunk.js",
+    "static/js/521.aa5f31f8.chunk.js": "/ape-nft-softryzen/static/js/521.aa5f31f8.chunk.js",
+    "static/js/529.7cf3dfda.chunk.js": "/ape-nft-softryzen/static/js/529.7cf3dfda.chunk.js",
+    "static/js/902.c77469f6.chunk.js": "/ape-nft-softryzen/static/js/902.c77469f6.chunk.js",
+    "static/js/314.c94eba42.chunk.js": "/ape-nft-softryzen/static/js/314.c94eba42.chunk.js",
+    "static/js/923.92443107.chunk.js": "/ape-nft-softryzen/static/js/923.92443107.chunk.js",
+    "static/js/401.63ccaa32.chunk.js": "/ape-nft-softryzen/static/js/401.63ccaa32.chunk.js",
+    "static/js/653.e74ab641.chunk.js": "/ape-nft-softryzen/static/js/653.e74ab641.chunk.js",
+    "static/js/70.e8747ccd.chunk.js": "/ape-nft-softryzen/static/js/70.e8747ccd.chunk.js",
+    "static/js/362.6aa1101d.chunk.js": "/ape-nft-softryzen/static/js/362.6aa1101d.chunk.js",
     "static/media/BiroScriptPlus-Sloppy.ttf": "/ape-nft-softryzen/static/media/BiroScriptPlus-Sloppy.87e5355ce830b7f955b4.ttf",
     "static/media/BiroScriptPlus.ttf": "/ape-nft-softryzen/static/media/BiroScriptPlus.8f40d0e26da891712200.ttf",
     "static/media/BiroScriptPlus-Bold.ttf": "/ape-nft-softryzen/static/media/BiroScriptPlus-Bold.d59732f3d22e3d024577.ttf",
@@ -46,11 +46,11 @@
     "static/media/slick.ttf": "/ape-nft-softryzen/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "/ape-nft-softryzen/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/ape-nft-softryzen/index.html",
-    "main.771a8e6b.css.map": "/ape-nft-softryzen/static/css/main.771a8e6b.css.map",
-    "main.2b0ff4f9.js.map": "/ape-nft-softryzen/static/js/main.2b0ff4f9.js.map"
+    "main.962e78b7.css.map": "/ape-nft-softryzen/static/css/main.962e78b7.css.map",
+    "main.8e206a48.js.map": "/ape-nft-softryzen/static/js/main.8e206a48.js.map"
   },
   "entrypoints": [
-    "static/css/main.771a8e6b.css",
-    "static/js/main.2b0ff4f9.js"
+    "static/css/main.962e78b7.css",
+    "static/js/main.8e206a48.js"
   ]
 }
