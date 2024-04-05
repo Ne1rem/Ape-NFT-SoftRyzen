@@ -1,83 +1,91 @@
-  .divCardFAQ {
-    cursor: pointer;
-    display: flex;
-    gap: 8px;
-    padding: 8px;
-    border-radius: 12px;
-  }
+.divCardFAQ {
+  cursor: pointer;
+  display: flex;
+  gap: 8px;
+  padding: 8px;
+  border-radius: 12px;
+}
 
+.numberOfFAQ {
+  font-family: BiroScriptPlus-Bold;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 20px;
+  padding-top: 2px;
+}
+
+.textQuastion {
+  font-family: RightGrotesk-CompactBlack;
+  font-size: 20px;
+  font-weight: 900;
+  line-height: 20px;
+  width: 166px;
+}
+
+.divCardFAQ:hover .numberOfFAQ {
+  color: var(--white-color);
+}
+
+.divCardFAQ:hover .textQuastion {
+  color: var(--main-color);
+}
+
+.textAnswer {
+  color: var(--white-color);
+  font-family: MessinaSansMono-Book;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 14px;
+  text-transform: uppercase;
+  width: 166px;
+}
+
+.textContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+@media screen and (max-width: 767px) {
+  .image {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .divCardFAQ {
+    width: 592px;
+    gap: 24px;
+    padding: 18px 16px;
+    border-radius: 16px;
+    position: relative;
+  }
   .numberOfFAQ {
     font-family: BiroScriptPlus-Bold;
-    font-size: 12px;
+    font-size: 16px;
     font-weight: 400;
-    line-height: 20px;
-    padding-top: 2px;
+    line-height: 27px;
+    padding-top: 6px;
+    padding-left: 183px;
   }
-
   .textQuastion {
-    font-family: RightGrotesk-CompactBlack;
-    font-size: 20px;
+    width: 339px;
+    font-size: 32px;
     font-weight: 900;
-    line-height: 20px;
-    width: 166px;
+    line-height: 32px;
   }
-
+  .image {
+    width: 148px;
+    height: 183px;
+    transform: rotate(-16deg);
+    position: absolute;
+    top: -14.425px;
+  }
   .textAnswer {
-    color: var(--white-color);
-    font-family: MessinaSansMono-Book;
     font-size: 12px;
     font-weight: 400;
     line-height: 14px;
-    text-transform: uppercase;
-    width: 166px;
+    text-align: left;
+    width: 339px;
   }
-
-  .textContainer {
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-  }
-
-  @media screen and (max-width: 767px) {
-    .image {
-      display: none;
-    }
-  }
-
-  @media screen and (min-width: 768px) {
-    .divCardFAQ {
-      width: 592px;
-      gap: 24px;
-      padding: 18px 16px;
-      border-radius: 16px;
-      position: relative;
-    }
-    .numberOfFAQ {
-      font-family: BiroScriptPlus-Bold;
-      font-size: 16px;
-      font-weight: 400;
-      line-height: 27px;
-      padding-top: 6px;
-      padding-left: 183px;
-    }
-    .textQuastion {
-      width: 339px;
-      font-size: 32px;
-      font-weight: 900;
-      line-height: 32px;
-    }
-    .image {
-      width: 148px;
-      height: 183px;
-      transform: rotate(-16deg);
-      position: absolute;
-      top: -14.425px;
-    }
-    .textAnswer {
-      font-size: 12px;
-      font-weight: 400;
-      line-height: 14px;
-      text-align: left;
-      width: 339px;
-    }
-  }
+}

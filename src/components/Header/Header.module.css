@@ -13,7 +13,9 @@
   top: 16px;
   left: 8px;
 }
-
+.svgHeader:hover {
+  fill: var(--white-color);
+}
 .divHeaderText {
   display: flex;
   flex-direction: column;

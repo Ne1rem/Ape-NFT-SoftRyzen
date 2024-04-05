@@ -8,6 +8,16 @@
   text-transform: uppercase;
   padding-bottom: 24px;
 }
+.error {
+  position: relative;
+  font-family: MessinaSansMono-Book;
+  font-size: 10px;
+  font-weight: 400;
+  line-height: 12px;
+  text-transform: uppercase;
+  text-align: right;
+  color:var(--main-color);
+}
 
 .svgX {
   width: 36px;
@@ -22,6 +32,7 @@
   font-size: 16px;
   font-weight: 400;
   line-height: 19px;
+  text-transform: uppercase;
   text-align: center;
   width: 216px;
   padding-bottom: 16px;
@@ -58,6 +69,7 @@
   justify-content: center;
   align-items: center;
   padding-bottom: 16px;
+  align-items: start;
 }
 
 .inputConctactUs {
@@ -86,4 +98,42 @@
   color: var(--white-color);
   background-color: var(--main-color);
   width: 100%;
+}
+
+@media screen and (min-width: 768px) {
+  .titleContactUs {
+    font-size: 80px;
+    line-height: 80px;
+    padding-bottom: 40px;
+  }
+  .svgX {
+    padding-bottom: 24px;
+  }
+
+  .textContactsUs {
+    width: 397px;
+    padding-bottom: 24px;
+  }
+
+  .inputConctactUs {
+    padding: 17px 24px;
+    width: 152px;
+  }
+  .inputPart {
+    margin: 0 auto;
+    width: 247px;
+  }
+  .buttonSubmit {
+    display: flex;
+    margin: 0 auto;
+    padding: 11px 0;
+    font-family: RightGrotesk-CompactBlack;
+    font-size: 16px;
+    justify-content: center;
+    font-weight: 900;
+    line-height: 19px;
+    color: var(--white-color);
+    background-color: var(--main-color);
+    width: 247px;
+  }
 }

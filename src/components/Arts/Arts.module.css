@@ -10,7 +10,7 @@
 
 .sliderContainer {
   position: relative;
-  
+
   display: block;
   box-sizing: border-box;
   -webkit-user-select: none;
@@ -37,7 +37,7 @@
   line-height: 24px;
 }
 
-.divSlaider{
+.divSlaider {
   height: 256px;
 }
 .imageCollection {
@@ -55,6 +55,22 @@
   }
   .sliderContainer {
     width: 592px;
-    
+    height: 336px;
+  }
+
+  .imageCollection {
+    width: 284px;
+    height: 336px;
+  }
+  .divSlaider {
+    width: 308px;
+    height: 336px;
+  }
+
+  .buttonNextPrev {
+    line-height: 30px;
+  }
+  .artPart{
+    height: 510px;
   }
 }

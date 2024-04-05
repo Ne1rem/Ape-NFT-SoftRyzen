@@ -18,7 +18,10 @@
       width: 48px;
       height: 48px;
   }
-  
+  .buttonNav:hover {
+    color: var(--white-color);
+  }
+
   .buttonNav {
     padding: 17px 8.5px;
     font-family: MessinaSansMono-Book;
@@ -30,7 +33,10 @@
   .buttonNavSvg {
   padding: 0;
   }
-  
+  .svgNav:hover {
+    fill: var(--white-color);
+  }
+
   .svgNav {
     padding: 16px;
     width: 16px;
