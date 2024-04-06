@@ -54,7 +54,7 @@
     padding-bottom: 40px;
   }
   .sliderContainer {
-    width: 592px;
+    width: 593px;
     height: 336px;
   }
 
@@ -72,5 +72,32 @@
   }
   .artPart{
     height: 510px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .COLLECTION {
+    font-family: RightGrotesk-CompactBlack;
+    font-size: 160x;
+    font-weight: 900;
+    line-height: 160x;
+    padding-bottom: 80px;
+  }
+  .sliderContainer {
+    width: 1030px;
+    height: 280px;
+  }
+
+  .imageCollection {
+    width: 240px;
+    height: 280px;
+  }
+  .divSlaider {
+    width: 266px;
+    height: 280px
+  }
+
+  .artPart{
+    height: 550px;
   }
 }

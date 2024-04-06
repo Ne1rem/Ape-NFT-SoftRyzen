@@ -17,3 +17,15 @@
     padding: 54px 88px 40px 88px;
   }
 }
+
+
+@media screen and (min-width: 1280px) {
+  .div {
+    display: flex;
+    flex-direction: column;
+    gap: 120px;
+    margin: 0 auto;
+    align-items: center;
+    padding: 12px 88px 40px 88px;
+  }
+}

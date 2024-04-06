@@ -108,6 +108,13 @@
     line-height: 80px;
     padding-bottom: 40px;
   }
+  .error {
+
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 14px;
+  }
+  
   .svgX {
     padding-bottom: 24px;
   }
@@ -137,5 +144,68 @@
     color: var(--white-color);
     background-color: var(--main-color);
     width: 247px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .titleContactUs {
+    font-size: 160px;
+    line-height: 160px;
+    padding-bottom: 80px;
+  }
+  .error {
+
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 14px;
+  }
+  
+  .svgX {
+    height: 36px;
+    width: 36px;
+    padding-bottom: 40px;
+  }
+
+  .textContactsUs {
+font-size: 24px;
+font-weight: 400;
+line-height: 29px;
+text-align: center;
+
+    width: 581px;
+    padding-bottom: 40px;
+  }
+
+  .inputConctactUs {
+    padding: 22.5px 24px;
+font-size: 16px;
+font-weight: 400;
+line-height: 19px;
+text-align: left;
+    width: 285px;
+  }
+  .inputPart {
+    margin: 0 auto;
+    width: 333px;
+  }
+  .buttonSubmit {
+    display: flex;
+    margin: 0 auto;
+    padding: 11px 0;
+    font-size: 28px;
+    line-height: 34px;
+    color: var(--white-color);
+    background-color: var(--main-color);
+    width: 397px;
+  }
+  .svgDiscord {  
+    fill: rgba(90, 101, 242, 1);
+    padding: 20px;
+  }
+  
+  .svgFox {
+    width: 24px;
+    height: 24px; 
+    padding: 20px;
   }
 }

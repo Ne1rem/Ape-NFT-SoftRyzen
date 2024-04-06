@@ -15,14 +15,21 @@
 }
 
 @media screen and (min-width: 768px) {
-  .divFAQ {
-    gap: 24px;
-  }
 
   .titleFAQ {
     font-size: 80px;
     font-weight: 900;
     line-height: 80px;
     padding-bottom: 48px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+
+  .titleFAQ {
+    font-size: 160px;
+    font-weight: 900;
+    line-height: 160px;
+    padding-bottom: 80px;
   }
 }

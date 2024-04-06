@@ -31,7 +31,7 @@ const Header = () => {
         <p className={css.didYouSeeIt}>diD yOu seE iT ?</p>
         {windowWidth >= 768 ? (
           <h1 className={css.yachtApes}>
-            YACHT <span style={{paddingLeft: "152px"}}> APES</span>
+            YACHT <span className={css.span}> APES</span>
           </h1>
         ) : (
           <h1 className={css.yachtApes}>YACHT APES</h1>

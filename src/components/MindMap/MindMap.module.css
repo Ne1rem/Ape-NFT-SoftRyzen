@@ -7,7 +7,11 @@
   text-align: center;
   padding-bottom: 24px;
 }
-
+.a {
+  display: block;
+  width: 216px;
+  height: 242px;
+}
 .sliderContainer {
   position: relative;
   display: block;
@@ -73,6 +77,10 @@
 }
 
 @media screen and (min-width: 768px) {
+  .a {
+    width: 284px;
+  height: 242px;
+  }
   .MingMapP {
     font-family: RightGrotesk-CompactBlack;
     font-size: 80px;
@@ -110,5 +118,50 @@
   .divSlaiderSvg {
     position: absolute;
   }
+}
 
+@media screen and (min-width: 1280px) {
+  .a{
+    width: 504px;
+    height: 480px;
+  }
+  .MingMapP {
+    font-family: RightGrotesk-CompactBlack;
+    font-size: 160px;
+    font-weight: 900;
+    line-height: 160px;
+    padding-bottom: 80px;
+  }
+  .cardGrid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 24px;
+  }
+  .divSlaider {
+    border-radius: 24px;
+    height: 480px;
+  }
+  .divSlaiderFinal {
+    border-radius: 24px;
+    height: 480px;
+  }
+  .divSlaiderText {
+    padding: 24px 24px 107px 252px;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 29px;
+    width: 228px;
+    text-align: left;
+  }
+  .divSlaiderTitle {
+    left: 24px;
+    right: 12px;
+    font-size: 64px;
+    font-weight: 900;
+    line-height: 64px;
+    text-align: left;
+  }
+  .divSlaiderSvg {
+    position: absolute;
+  }
 }

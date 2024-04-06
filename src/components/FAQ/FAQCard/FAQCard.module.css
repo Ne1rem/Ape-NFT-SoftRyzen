@@ -55,7 +55,7 @@
 @media screen and (min-width: 768px) {
   .divCardFAQ {
     width: 592px;
-    gap: 24px;
+    gap: 18px;
     padding: 18px 16px;
     border-radius: 16px;
     position: relative;
@@ -87,5 +87,44 @@
     line-height: 14px;
     text-align: left;
     width: 339px;
+  }
+}
+
+
+@media screen and (min-width: 1280px) {
+  .divCardFAQ {
+    width: 1032px;
+    gap: 24px;
+    padding: 24px;
+    border-radius: 24px;
+    position: relative;
+  }
+  .numberOfFAQ {
+    font-family: BiroScriptPlus-Bold;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 40px;
+    padding-top: 12px;
+    padding-left: 297px;
+  }
+  .textQuastion {
+    width: 635px;
+    font-size: 64px;
+    font-weight: 900;
+    line-height: 64px;
+  }
+  .image {
+    width: 248px;
+    height: 282px;
+    transform: rotate(-8deg);
+    position: absolute;
+    top: -14.425px;
+  }
+  .textAnswer {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    text-align: left;
+    width: 635px;
   }
 }

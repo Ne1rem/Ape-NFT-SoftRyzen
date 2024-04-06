@@ -24,6 +24,12 @@ const MindMap = () => {
     slidesToScroll: 1,
   };
 
+  const handleLinkClick = (event, url) => {
+
+    event.preventDefault();
+    window.open(url, '_blank');
+  };
+
   useEffect(() => {
     const handleResize = () => {
       setWindowWidth(window.innerWidth);
@@ -63,7 +69,9 @@ const MindMap = () => {
             <p className={css.divSlaiderTitle}>Token</p>
           </div>
           <div className={css.divSlaiderFinal} key={4}>
-            <a href="/">
+          <a onClick={event =>
+                  handleLinkClick(event, 'https://github.com/Ne1rem/ape-nft-softryzen')
+                } href="https://github.com/Ne1rem/ape-nft-softryzen" className={css.a}>
               <svg className={css.divSlaiderSvg}>
                 <use href={`${icon}#icon-arrow`} />
               </svg>
@@ -101,7 +109,9 @@ const MindMap = () => {
               <p className={css.divSlaiderTitle}>Token</p>
             </div>
             <div className={css.divSlaiderFinal} key={4}>
-              <a href="/">
+              <a onClick={event =>
+                  handleLinkClick(event, 'https://github.com/Ne1rem/ape-nft-softryzen')
+                } href="https://github.com/Ne1rem/ape-nft-softryzen" className={css.a}>
                 <svg className={css.divSlaiderSvg}>
                   <use href={`${icon}#icon-arrow`} />
                 </svg>

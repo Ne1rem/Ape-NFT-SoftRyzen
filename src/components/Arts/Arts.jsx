@@ -44,9 +44,10 @@ const Arts = () => {
     infinite: false,
     arrows: false,
     speed: 500,
-    slidesToShow: windowWidth > 767 ? 2 : 1,
+    slidesToShow: windowWidth >= 1280 ? 4 : windowWidth > 767 ? 2 : 1, // Изменено условие
     slidesToScroll: 1,
   };
+  
 
   return (
     <div className={css.artPart} id="Arts">

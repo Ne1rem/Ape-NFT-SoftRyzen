@@ -1,29 +1,40 @@
 .div {
-    z-index: 10;
-    position: relative;
+  z-index: 10;
+  position: relative;
 }
 
 .meetBut {
-    padding: 10px 74px;
-    font-family: RightGrotesk-CompactBlack;
-    font-size: 16px;
-    font-weight: 900;
-    
-    line-height: 19px;
-    background-color: rgba(30, 30, 30, 0.1);
+  padding: 10px 74px;
+  font-family: RightGrotesk-CompactBlack;
+  font-size: 16px;
+  font-weight: 900;
+
+  line-height: 19px;
+  background-color: rgba(30, 30, 30, 0.1);
 }
 
 .meetBut:hover {
-    color: var(--white-color);
+  color: var(--white-color);
 }
 
-.meetBut{
-    color: var(--text-color);
+.meetBut {
+  color: var(--text-color);
 }
 
 @media screen and (min-width: 768px) {
+  .meetBut {
+    padding: 10px 61px;
+  }
+}
 
-    .meetBut {
-        padding: 10px 61px;
-    }
+@media screen and (min-width: 1280px) {
+  .meetBut {
+    width: 337px;
+    padding: 16px 109.5px 20px 109.5px;
+    font-family: RightGrotesk-CompactBlack;
+    font-size: 28px;
+    font-weight: 900;
+    line-height: 34px;
+    background-color: rgba(30, 30, 30, 0.1);
+  }
 }

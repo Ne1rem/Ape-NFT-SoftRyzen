@@ -118,3 +118,58 @@
     text-align: center;
   }
 }
+
+@media screen and (min-width: 1280px) {
+  .divAbout {
+    width: 1019px;
+    height: 884px;
+  }
+  .aStoryAbout {
+    text-transform: uppercase;
+    font-family: RightGrotesk-CompactBlack;
+    font-size: 120px;
+    font-weight: 900;
+    line-height: 120px;
+    text-align: left;
+    color: var(--white-color);
+    padding-bottom: 56px;
+    width: 554px;
+  }
+
+  .whoGotAbout {
+    padding-top: 24px;
+    width: 409px;
+font-size: 24px;
+font-weight: 400;
+line-height: 29px;
+text-align: right;
+
+    padding-left: 85px;
+  }
+
+  .divAboutX {
+    padding-top: 0px;
+    padding-bottom: 40px;
+    text-align: center;
+    width: 417px;
+  }
+  .x {
+    width: 36px;
+    height: 36px;
+    margin: 0 auto;
+    padding-bottom: 36px;
+  }
+  .AboutMonkey {
+    position: relative;
+    width: 492px;
+    height: 662px;
+    top: -659px;
+    left: 537px;
+  }
+  .eachArtworkAbout {
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 29px;
+    text-align: center;
+  }
+}

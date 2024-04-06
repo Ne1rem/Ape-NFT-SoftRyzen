@@ -1,6 +1,8 @@
+
 .div {
   position: fixed;
   top: 62px;
+  z-index: 999;
 }
 
 .nav {
@@ -17,6 +19,7 @@
 .liNav {
   width: 48px;
   height: 48px;
+  z-index: 998; 
 }
 
 .buttonNavLess:hover {
@@ -24,6 +27,7 @@
 }
 
 .buttonNavLess {
+  z-index: 999;
   padding: 17px 8.5px;
   font-family: MessinaSansMono-Book;
   font-size: 12px;
@@ -119,7 +123,7 @@
   padding: 16px;
   width: 16px;
   height: 16px;
-  fill: var(--text-color);
+  fill: var(--white-color);
 }
 .svgNavLess:hover {
   fill: var(--white-color);
@@ -140,3 +144,134 @@
     fill: var(--text-color);
   }
 }
+
+@media screen and (min-width: 1280px) {
+  .div {
+    top: 24px;
+  }
+  .nav {
+    position: fixed;
+    right: 40px;
+  }
+  
+  .ulNav {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+  }
+  
+  .liNav {
+    width: 80px;
+    height: 80px;
+  }
+  
+  .buttonNavLess:hover {
+    color: var(--white-color);
+  }
+  
+  .buttonNavLess {
+    padding: 30px 14.5px;
+
+    font-family: MessinaSansMono-Book;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 19px;
+    background: rgba(30, 30, 30, 0.1);
+    border-radius: 12px;
+    width: 80px;
+    height: 80px;
+  }
+  
+  .buttonNavMore {
+    padding: 30px 14.5px;
+    font-family: MessinaSansMono-Book;
+    font-size: 16px;
+    font-weight: 600;
+    width: 80px;
+    height: 80px;
+    color: var(--white-color);
+    border-radius: 12px;
+    background-color: rgba(255, 255, 255, 0.1);
+    line-height: 19px;
+  }
+  
+  .buttonNavMore:hover {
+    color: var(--main-color);
+  }
+  
+  .buttonNavSvgMore {
+    height: 80px;
+    width: 80px;
+    padding: 0;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 12px;
+  }
+  
+  .buttonNavSvgLess {
+    padding: 0;
+    height: 80px;
+    width: 80px;
+    background: rgba(30, 30, 30, 0.1);
+    border-radius: 12px;
+  } 
+  
+  .menuTextLess {
+    position: relative;
+  }
+  
+  .menuTextLess::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background-color: var(--white-color);
+    opacity: 0;
+    transition: opacity 0.3s ease;
+  }
+  
+  .buttonNavLess:hover .menuTextLess::after {
+    opacity: 1;
+  }
+  
+  .menuTextMore {
+    position: relative;
+  }
+  
+  .menuTextMore::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background-color: var(--main-color);
+    opacity: 0;
+    transition: opacity 0.3s ease;
+  }
+  
+  .buttonNavMore:hover .menuTextMore::after {
+    opacity: 1;
+  }
+  .svgNavMore {
+    padding: 16px;
+    width: 16px;
+    height: 16px;
+    fill: var(--white-color);
+  }
+  .svgNavMore:hover {
+    fill: var(--main-color);
+  }
+  
+  .svgNavLess {
+    padding: 16px;
+    width: 16px;
+    height: 16px;
+    fill: var(--text-color);
+  }
+  .svgNavLess:hover {
+    fill: var(--white-color);
+  }
+}
+
